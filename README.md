@@ -11,8 +11,8 @@
 | **Internship Name** | Python Programming Internship |
 | **Intern Name** | Sakshi Sorte |
 | **Intern ID** | CITS1852 |
-| **Location** | Pune, Maharashtra, India |
-| **Technologies Learned** | Python, Tkinter, Cryptography, File Handling, Git/GitHub |
+
+*Technologies Learned** | Python, Tkinter, Cryptography, File Handling, Git/GitHub |
 
 ---
 
