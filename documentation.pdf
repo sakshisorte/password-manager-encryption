@@ -1,0 +1,124 @@
+# Password Manager Encryption - Project Documentation
+
+## Project Information
+
+| Field | Information |
+|-------|-------------|
+| **Project Name** | Password Manager Encryption |
+| **Intern Name** | Sakshi Sorte |
+| **Intern ID** | CITS1852 |
+| **Internship** | Python Programming Internship |
+| **GitHub Repository** | password-manager-encryption |
+
+---
+
+## Project Description
+
+The Password Manager Encryption project is developed using Python to securely store and manage passwords. This project uses encryption techniques to protect user passwords and improve data security. It provides a simple and user-friendly interface for saving and managing passwords safely.
+
+---
+
+## Features
+
+- Secure password storage
+- Password encryption using cryptography
+- Generate strong random passwords
+- User-friendly GUI using Tkinter
+- Save and manage passwords easily
+- Secure file handling
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Tkinter | GUI Framework |
+| Cryptography Library | Password Encryption |
+| File Handling | Secure Data Storage |
+| VS Code | Code Editor |
+| GitHub | Version Control |
+
+---
+
+## Modules Used
+
+```python
+from tkinter import *
+from tkinter import messagebox
+from cryptography.fernet import Fernet
+import os
+import random
+import string
+```
+
+---
+
+## Files Included
+
+| File | Description |
+|------|-------------|
+| `password_manager.py` | Main application script |
+| `README.md` | Project documentation |
+| `secret.key` | Encryption key (auto-generated) |
+| `screenshot.png` | Application screenshot |
+
+---
+
+## How to Run the Project
+
+### Step 1: Install Required Library
+
+```bash
+pip install cryptography
+```
+
+### Step 2: Run the Program
+
+```bash
+python password_manager.py
+```
+
+---
+
+## Project Working
+
+1. The program generates or loads a secret encryption key.
+2. Passwords entered by the user are encrypted.
+3. Encrypted passwords are stored securely.
+4. Users can manage and save passwords safely.
+5. Random strong passwords can also be generated.
+
+---
+
+## Advantages
+
+| Advantage | Benefit |
+|-----------|---------|
+| Improves password security | Protects sensitive data from unauthorized access |
+| Easy to use | User-friendly GUI interface |
+| Prevents password theft | Encryption makes stolen data useless |
+| Supports encrypted storage | Passwords stored in unreadable format |
+| Helpful for learning cybersecurity | Great for understanding encryption concepts |
+
+---
+
+## Conclusion
+
+The Password Manager Encryption project was successfully developed using Python. This project helps users securely store and manage passwords using encryption techniques. It improved understanding of Python programming, GUI development, file handling, and cybersecurity concepts during the internship.
+
+---
+
+## Key Learnings
+
+- Python programming & GUI development (Tkinter)
+- File handling & secure storage practices
+- Cryptography & encryption concepts (Fernet symmetric encryption)
+- Cybersecurity fundamentals
+- Version control with Git & GitHub
+
+---
+
+*Document prepared by: Sakshi Sorte (CITS1852)*  
+*Python Programming Internship | Pune, Maharashtra, India*
